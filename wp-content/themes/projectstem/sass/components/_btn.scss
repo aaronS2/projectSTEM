@@ -1,0 +1,12 @@
+.btn {
+  @include make-button();
+
+  &.btn-secondary {
+    background-color: $color__brand-yellow;
+    color: $color__brand-charcoal;
+
+    &:hover {
+      background-color: $color__brand-yellow-hover;
+    }
+  }
+}

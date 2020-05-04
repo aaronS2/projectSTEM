@@ -1,0 +1,28 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea,
+.body-text {
+  color: $color__brand-charcoal;
+  font-family: $font__body;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.bigger-text {
+  font-family: $font__body;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.778;
+}
+.small-text {
+  font-family: $font__body;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.231;
+}
+
+@import "headings";
+@import "copy";
